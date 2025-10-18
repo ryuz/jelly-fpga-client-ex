@@ -41,7 +41,7 @@ The following is an example of [KV260 LED blinking](https://github.com/ryuz/jell
 Connect to FPGA.
 
 ```elixir
-{:ok, channel} = GRPC.Stub.connect("XX.XX.XX.XX:50051")
+{:ok, channel} = GRPC.Stub.connect("XX.XX.XX.XX:8051")
 channel |> JellyFpgaControl.reset()
 ```
 
